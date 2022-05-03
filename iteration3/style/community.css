@@ -1,0 +1,218 @@
+.content {
+    padding-top: 0;
+}
+
+.classification {
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-bottom: 1px solid #dedede;
+}
+
+.classification div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 80px;
+    background-color: #fcfcfc;
+    color: black;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.classification div:hover {
+    background-color: #f1f1f1;
+    color: #c50819;
+}
+
+.classification div span {
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.classification div:not(:nth-child(1)) span {
+    border-left: 1px solid rgb(176, 176, 176);
+}
+
+.bolg-posts {
+    margin-top: 30px;
+    display: none;
+    flex-direction: column;
+    width: 100%;
+}
+
+.bolg-posts-text {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 400px;
+}
+
+.bolg-posts-text div {
+    box-sizing: border-box;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    width: 38%;
+    height: 400px;
+}
+
+.bolg-posts-text div h2 {
+    font-size: 22px;
+    color: #484848;
+}
+
+.bolg-posts-text div span {
+    box-sizing: border-box;
+    padding: 5% 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #484848;
+}
+
+.bolg-posts-text div span p {
+    transition: .2s;
+}
+
+.bolg-posts-text div span p:hover {
+    color: #c50819;
+}
+
+.selected-tab-selected {
+    color: #cb2734;
+}
+
+.bolg-posts-text span {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.bolg-posts-text div,
+.bolg-posts-text span {
+    box-sizing: border-box;
+    height: 100%;
+    background-color: #efefef;
+    border-radius: 5px;
+    transition: transform .4s;
+    cursor: pointer;
+}
+
+.bolg-posts-text div:hover, 
+.bolg-posts-text span:hover {
+    transform: translateY(-2px);
+}
+
+.bolg-posts-text span img {
+    width: 100%;
+}
+
+.bolg-posts-text span h4 {
+    margin: 10px 0;
+    margin-top: 30px;
+    padding: 0 10px;
+}
+
+.bolg-posts-text span i {
+    margin: 10% 0;
+    padding: 0 10px;
+}
+
+.forum-posts {
+    margin-top: 30px;
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    height: 450px;
+}
+
+.forum-posts-main {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+.forum-posts-main-left {
+    width: 32%;
+    height: 100%;
+}
+
+.forum-posts-main-right {
+    display: flex;
+    flex-wrap: wrap;
+    width: 65%;
+    height: 100%;
+}
+
+.forum-posts-main-right div {
+    width: 47.5%;
+}
+
+.forum-posts-main-left,
+.forum-posts-main-right div {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: #efefef;
+    border-radius: 5px;
+    transition: transform .4s;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.forum-posts-main-left h3,
+.forum-posts-main-right div h3 {
+    width: 100%;
+    height: 80px;
+    background-image: url('../static/images/forum-02.png');
+    background-size: contain;
+    line-height: 80px;
+    text-align: center;
+    color: #484848;
+}
+
+.forum-posts-main-left span,
+.forum-posts-main-right div span {
+    box-sizing: border-box;
+    flex: 1;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.forum-posts-main-left span p,
+.forum-posts-main-right div span p {
+    white-space: nowrap;
+    overflow: hidden;
+    color: #484848;
+    text-overflow: ellipsis;
+}
+
+.forum-posts-main-left span p:hover,
+.forum-posts-main-right div span p:hover {
+    color: #c50819;
+}
+
+.forum-posts-main-left:hover,
+.forum-posts-main-right div:hover {
+    transform: translateY(-2px);
+}
+
+.forum-posts-main-right div:nth-child(2n - 1) {
+    margin-right: 5%;
+}
+
+.forum-posts-main-right div:nth-child(3),
+.forum-posts-main-right div:nth-child(4) {
+    margin-top: 5%;
+}

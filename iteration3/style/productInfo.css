@@ -1,0 +1,122 @@
+.infoHeader {
+    margin-top: 80px;
+    display: flex;
+}
+
+.infoImage,
+.infoTitle {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.infoImage img {
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.infoTitle h2 {
+    width: 100%;
+    margin-top: 10%;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.infoTitle em {
+    width: 100%;
+    margin-top: 6%;
+    font-size: 18px;
+    color: red;
+}
+
+.infoTitle i {
+    width: 100%;
+    margin-top: 6%;
+    font-size: 20px;
+    color: rgb(78, 78, 78);
+}
+
+.infoTitle span {
+    margin-top: 6%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.infoTitle span strong {
+    display: flex;
+    border: 1px solid rgb(176, 176, 176);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.infoTitle span strong p {
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.infoTitle span strong p:active {
+    background-color: #fbfbfb;
+}
+
+.infoTitle span strong input {
+    width: 100px;
+    text-align: center;
+    font-size: 18px;
+    border: none;
+    border-left: 1px solid rgb(176, 176, 176);
+    border-right: 1px solid rgb(176, 176, 176);
+    outline: none;
+}
+
+.infoTitle button {
+    width: 200px;
+    height: 40px;
+    border: 0;
+    border-radius: 8px;
+    font-size: 24px;
+    background-color: brown;
+    color: white;
+    cursor: pointer;
+}
+
+.infoBody {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.infoBody div {
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    width: 100%;
+    background-color: #d1d1d1;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.infoBody div img {
+    height: 100%;
+    object-fit: contain;
+}
+
+.infoBody div p {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.infoBody h1 {
+    width: 100%;
+    text-align: center;
+}

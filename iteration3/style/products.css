@@ -1,0 +1,156 @@
+.products {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.products h1 {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.products-item {
+    margin-bottom: 30px;
+    display: flex;
+    height: 280px;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, .2);
+    overflow: hidden;
+    transition: transform .4s;
+}
+
+.products-item:hover {
+    transform: translateY(-2px);
+}
+
+.first-line-item div {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.first-line-item-title i {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.first-line-item-title em {
+    font-size: 18px;
+    color: gray;
+}
+
+.first-line-item-title p {
+    font-size: 20px;
+    color: black;
+}
+
+.first-line-item-title span {
+    display: flex;
+}
+
+.first-line-item-title span a {
+    margin-right: 1%;
+    line-height: 24px;
+    text-align: center;
+    width: 20%;
+    border-radius: 10px;
+    border: 2px solid #dedede;
+    cursor: pointer;
+}
+
+.first-line-item-title span a:nth-child(1) {
+    background-color: black;
+    color: white;
+}
+
+.first-line-item-title {
+    padding: 5%;
+    box-sizing: border-box;
+}
+
+.first-line-item-img {
+    background-color: #fff;
+}
+
+.first-line-item-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.second-line {
+    display: flex;
+    width: 100%;
+}
+
+.second-line-item {
+    box-sizing: border-box;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    width: 48.5%;
+    height: 600px;
+}
+
+.second-line-item:first-child {
+    margin-right: 5%;
+}
+
+.second-line-item-img {
+    width: 100%;
+    height: 50%;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.second-line-item-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.second-line-item-tit {
+    padding-top: 10%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+}
+
+.second-line-item-tit i {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.second-line-item-tit em {
+    font-size: 18px;
+    color: gray;
+}
+
+.second-line-item-tit p {
+    font-size: 20px;
+}
+
+.second-line-item-tit span {
+    display: flex;
+}
+
+.second-line-item-tit span a {
+    margin-top: 10%;
+    margin-right: 1%;
+    line-height: 24px;
+    text-align: center;
+    width: 20%;
+    border-radius: 10px;
+    border: 2px solid #dedede;
+    cursor: pointer;
+}
+
+.second-line-item-tit span a:nth-child(1) {
+    background-color: black;
+    color: white;
+}

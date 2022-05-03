@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+i, em {
+    font-style: normal;
+}
+
+input::-webkit-outer-spin-button,input::-webkit-inner-spin-button{
+    -webkit-appearance:none;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield; 
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.header {
+    z-index: 10;
+    position: sticky;
+    top: 0;
+    box-sizing: border-box;
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    box-shadow: 0 0 1px 1px rgb(232, 232, 232);
+    background-color: #fff;
+}
+
+.header div,
+.header div a {
+    display: flex;
+    align-items: center;
+    color: #2c2c2c !important;
+}
+
+.header div a img {
+    height: 70px;
+    cursor: pointer;
+}
+
+.header div:nth-child(1) a i {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.header div:nth-child(2) a {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+    transition: border .4s;
+}
+
+.header div:nth-child(2) a:hover {
+    border-bottom: 2px solid rgb(255, 219, 154);
+}
+
+.header div:nth-child(2) .header-item-select {
+    border-bottom: 2px solid orange !important;
+}
+
+.header div:nth-child(3) a {
+    padding: 2px 25px;
+    margin: 0 .5vw;
+    font-size: 16px;
+    border: 1px solid #dedede;
+    border-radius: 10px;
+    transition: color,background-color .4s;
+    cursor: pointer;
+}
+
+.header div:nth-child(3) a:hover {
+    color: orange;
+    background-color: #c4c4c4;
+}
+
+.swiper {
+    width: 100%;
+    height: 500px;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.content {
+    padding-top: 50px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1100px;
+}
+
+.footer {
+    box-sizing: border-box;
+    margin-top: 30px;
+    padding: 0 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    background-color: gray;
+    font-size: 18px;
+    color: white;
+}
+
+.footer div:nth-child(2) {
+    display: flex;
+}
+
+.footer div:nth-child(2) a {
+    margin-right: 20px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}
